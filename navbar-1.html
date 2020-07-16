@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+    <link rel="stylesheet" href="navbar-1.css" >
+</head>
+<body>
+    <img src="img.jpg">
+    <header>
+        <i>leetcode<span>Plus</span></i>
+         <nav>
+             <ul>
+         <li><a href="#">Home</a></li>
+         <li><a href="#">About Us</a></li>
+         <li><a href="#">Contact</a></li>
+         <li><a href="#">Blog</a></li>
+         <li><a href="#">Login</a></li>
+         </ul>  
+         </nav>
+        </header>
+        <div class="text"> 
+        <p> Hello,My name is</p>
+        <h1>John Deo</h1>
+        <h3>Web Developer</h3>
+        <button>Download Cv</button>
+        </div>
+             <div class="overlay">
+                <div class="layer layer1"></div>
+                <div class="layer layer2"></div>
+                <div class="layer layer3"></div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.0/gsap.min.js" integrity="sha512-elauk8NI35rjTlatfRQxeqmJoieQlfm0W8AeQVps+j+KkMDdaqNxVazFzwyU7uSOyeeVn/VLbGYLwOR/D5I6Kw==" crossorigin="anonymous"></script>
+        <script>
+            
+      gsap.to('.layer1',{y:'-100vh',delay:.5});
+      gsap.to('.layer2',{y:'-100vh',delay:.7});
+      gsap.to('.layer3',{y:'-100vh',delay:.9});
+      gsap.to('.overlay',{y:'-100vh',delay:1.2});
+
+        </script>
+</body>
+</html>

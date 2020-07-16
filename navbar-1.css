@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box; 
+color:whitesmoke;
+background-color: black;
+overflow-x: hidden;
+overflow-y: hidden;
+}
+body img{
+    position: absolute;
+    right:60px;
+    bottom:0px;
+    height:100vh;
+    width:500px;
+}
+header{
+position: absolute;
+font-family: poppins;
+display: flex;
+justify-content: space-evenly; 
+background-color: aliceblue 0.6; 
+top:0;
+right:0;
+left: 0;
+}
+i{
+font-size:30px;
+margin:20px 500px 10px 10px;
+padding:5px;   
+}
+i span{
+    font-family:Lobster;
+    font-size: 31px;
+}
+nav ul{
+    display: flex;
+    margin:20px;
+    z-index:-0;
+}
+nav ul li{
+    list-style:none;
+    }
+nav ul li a{
+
+    text-decoration: none;
+    display:flex;
+    justify-content:space-around;
+    padding:20px;
+    font-size:20px;
+    transition: .5s;
+}
+nav a:hover{
+      color: tomato;
+}
+.text{
+margin-top: 250px;    
+margin-left:180px; 
+font-family:poppins;
+font-weight: bold;   
+}
+.text p{
+    letter-spacing: 2px;
+    margin-left:10px;
+}
+.text h1{
+    font-size:60px;
+    margin-left:05px;
+    letter-spacing: 1px;
+}
+.text h3{
+  font-size:35px;
+  margin-left: 6px;
+}
+.text button
+{
+margin-top:20px;
+font-weight:bold;
+margin-left: 10px;
+padding:15px 20px 15px 20px;
+border-radius:10px;
+border:2px solid #4E1116;
+background-color:#4E1116;
+color:whitesmoke;
+text-transform: uppercase;  
+transition: .5s; 
+letter-spacing: 2px; 
+cursor: pointer;
+}
+.text button:hover{
+    background-color: tomato;
+    border-color: tomato;
+    transform:scale(1.08);
+}
+.overlay{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    display: flex;
+
+}
+.layer
+{
+    background-color:#4E1116;
+}
+.layer1{
+    flex: 1;
+}
+.layer2{
+    flex: 1;
+}
+.layer3{
+    flex: 1;
+}
